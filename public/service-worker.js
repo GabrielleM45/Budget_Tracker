@@ -1,17 +1,20 @@
+console.log("Hi from your service-worker.js file!");
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 
 const iconSizes = ["192","512"];
 const iconFiles = iconSizes.map(
-  (size) => `/public/icons/icon-${size}x${size}.png`
+  (size) => `/icons/icon-${size}x${size}.png`
 );
 
 const staticFilesToPreCache = [
   "/",
-  "index.html".
-  "/index.js",
-  "/manifest.webmanifest",
+  "index.html",
+  "indexedDb.js",
+  "index.js",
+  "manifest.webmanifest",
+  "styles.css"
 ].concat(iconFiles);
 
 
@@ -49,6 +52,7 @@ self.addEventListener("activate", function(evt) {
 self.addEventListener("fetch", function(evt) {
   const {url} = evt.request;
   if (url.includes("/api/")) {
+    console.log('[Service Worker] Fetch (data)', url.url);
     evt.respondWith(
       caches.open(DATA_CACHE_NAME).then(cache => {
         return fetch(evt.request)
