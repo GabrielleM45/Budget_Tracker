@@ -1,6 +1,3 @@
-const indexedDb =
-  window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB ||
-  window.shimIndexedDB;
 
 let db;
 // create a new db request for a "budget" database.
