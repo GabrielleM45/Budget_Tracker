@@ -12,7 +12,7 @@
   
   
 *online entry example*     
- ![picture](./public/assets/My Movie.mp4)      
+ ![picture](public/assets/My Movie.mp4)      
 
 
 
