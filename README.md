@@ -10,9 +10,12 @@
   
   
   
-  
-*online entry example*     
- ![picture](public/assets/My Movie.mp4)      
+   
+ 
+*online entry example*      
+![picture](public/assets/onlineexample.gif)       
+---     
+
 
 
 
@@ -22,13 +25,18 @@
 
 
   ## Description
- Students were provided with boiler plate code which was to be refactored to transform the application into a Progressive Web Application. This involved modification of both the server.js and index.html along with the creation of an indexed.js, manifest, and service-worker.js files. This application demonstrates the PWA capability allowing users to enter data offline and maintain full functionality of the application itself. The Budget Tracker allows for simply addition and subtraction of funds for an easy and simple way to monitor your budget.
+ Students were provided with boiler plate code which was to be refactored to transform the application into a Progressive Web Application. This involved modification of both the server.js and index.html along with the creation of an indexed.js, manifest, and service-worker.js files. This application demonstrates the PWA capability allowing users to enter data offline and maintain full functionality of the application itself. The Budget Tracker allows for simply addition and subtraction of funds for an easy and simple way to monitor your budget.    
  
  
  
  
- *offline entry example*     
-  ![picture](./public/assets/Offline.mp4)
+ 
+ 
+ 
+ 
+*offline entry example*      
+![picture](public/assets/offlineexample.gif)       
+---     
 
 
 
@@ -41,7 +49,7 @@
 
 
 
-## Deployed Webiste
+## Deployed Website
 https://trackyobudget.herokuapp.com/
 
 
