@@ -3,18 +3,41 @@
   ![](https://img.shields.io/badge/License-mit-lightblue)
 
 
+ 
+  # Budget Tracker     
+  
+  
+  
+  
+  
+  
+*online entry example*     
+ ![picture](./public/assets/My Movie.mp4)      
 
-  # Budget Tracker
+
+
+
+
+
 
 
   ## Description
  Students were provided with boiler plate code which was to be refactored to transform the application into a Progressive Web Application. This involved modification of both the server.js and index.html along with the creation of an indexed.js, manifest, and service-worker.js files. This application demonstrates the PWA capability allowing users to enter data offline and maintain full functionality of the application itself. The Budget Tracker allows for simply addition and subtraction of funds for an easy and simple way to monitor your budget.
+ 
+ 
+ 
+ 
+ *offline entry example*     
+  ![picture](./public/assets/Offline.mp4)
 
 
 
 
 
-  ![picture](./public/assets/My Movie.mp4)
+
+
+
+
 
 
 
@@ -33,9 +56,8 @@ https://trackyobudget.herokuapp.com/
   * [Description](#Description)
   * [Deployed Website](#Deployed)
   * [Installation](#Installation)
-  // * [Usage](#Usage)
+  * [Usage](#Usage)
   * [Contributing](#Contributing)
-  * [Tests](#Tests)
   * [Questions](#Questions)
   * [Author](#Author)
   * [License](#License)
@@ -54,8 +76,7 @@ https://trackyobudget.herokuapp.com/
   Individuals may contribute by downloading or forking the repository. 
 
 
-  ## Tests
-  
+
 
 
   ## Questions
